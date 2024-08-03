@@ -1,0 +1,23 @@
+
+###
+
+POST http://localhost:3001/create-admin
+Content-Type: application/json
+
+{
+  "username":"ulfiwaddani",
+  "password":"admin123"
+}
+###
+
+POST http://localhost:3001/create-post
+Content-Type: application/json
+
+{
+  "tanggal":"24-09-2024",
+  "judul":"admin123",
+   "kategori":"24 Agustus 2024",
+  "nama_file":"admin123",
+   "rincian":"24 Agustus 2024",
+  "deskripsi":"admin123"
+}
